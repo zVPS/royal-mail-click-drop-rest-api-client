@@ -1,0 +1,6 @@
+{
+    "modelPackage": "models",
+    "apiPackage": "RoyalMail\\ClickAndDrop\\Rest\\Api",
+    "variableNamingConvention": "camelCase",
+    "invokerPackage": "RoyalMail\\ClickAndDrop\\Rest\\Api"
+}
