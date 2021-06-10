@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace RoyalMail\ClickAndDrop\Rest\Api\RoyalMail\ClickAndDrop\Rest\Api;
+namespace RoyalMail\ClickAndDrop\Rest\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
