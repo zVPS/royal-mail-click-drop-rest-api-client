@@ -80,7 +80,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = '///api/v1';
+    protected $host = 'https://api.parcel.royalmail.com/api/v1';
 
     /**
      * User agent of the HTTP request, set to "PHP-Swagger" by default
