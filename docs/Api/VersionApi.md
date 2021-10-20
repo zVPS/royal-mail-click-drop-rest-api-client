@@ -17,7 +17,7 @@ Get API version details.
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\Api\VersionApi(
+$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\VersionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()

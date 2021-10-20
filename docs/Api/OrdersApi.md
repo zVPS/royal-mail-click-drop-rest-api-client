@@ -24,7 +24,7 @@ $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\Api\OrdersApi(
+$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\OrdersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -77,7 +77,7 @@ $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\Api\OrdersApi(
+$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\OrdersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -132,7 +132,7 @@ $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\Api\OrdersApi(
+$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\OrdersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
