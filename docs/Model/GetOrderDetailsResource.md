@@ -24,19 +24,20 @@ Name | Type | Description | Notes
 **channelShippingMethod** | **string** |  | [optional] 
 **specialInstructions** | **string** |  | [optional] 
 **pickerSpecialInstructions** | **string** |  | [optional] 
-**subtotal** | [**BigDecimal**](BigDecimal.md) |  | 
-**shippingCostCharged** | [**BigDecimal**](BigDecimal.md) |  | 
-**orderDiscount** | [**BigDecimal**](BigDecimal.md) |  | 
-**total** | [**BigDecimal**](BigDecimal.md) |  | 
+**subtotal** | **float** |  | 
+**shippingCostCharged** | **float** |  | 
+**orderDiscount** | **float** |  | 
+**total** | **float** |  | 
 **weightInGrams** | **int** |  | 
 **packageSize** | **string** |  | [optional] 
 **accountBatchNumber** | **string** |  | [optional] 
 **currencyCode** | **string** |  | [optional] 
-**shippingDetails** | [**\RoyalMail\ClickAndDrop\Rest\Api\models\GetShippingDetailsResult**](GetShippingDetailsResult.md) |  | 
-**shippingInfo** | [**\RoyalMail\ClickAndDrop\Rest\Api\models\GetPostalDetailsResult**](GetPostalDetailsResult.md) |  | 
-**billingInfo** | [**\RoyalMail\ClickAndDrop\Rest\Api\models\GetPostalDetailsResult**](GetPostalDetailsResult.md) |  | 
-**orderLines** | [**\RoyalMail\ClickAndDrop\Rest\Api\models\GetOrderLineResult[]**](GetOrderLineResult.md) |  | 
-**tags** | [**\RoyalMail\ClickAndDrop\Rest\Api\models\GetTagDetailsResult[]**](GetTagDetailsResult.md) |  | [optional] 
+**shippingDetails** | [**\RoyalMail\ClickAndDrop\Rest\Api\Models\GetShippingDetailsResult**](GetShippingDetailsResult.md) |  | 
+**shippingInfo** | [**\RoyalMail\ClickAndDrop\Rest\Api\Models\GetPostalDetailsResult**](GetPostalDetailsResult.md) |  | 
+**billingInfo** | [**\RoyalMail\ClickAndDrop\Rest\Api\Models\GetPostalDetailsResult**](GetPostalDetailsResult.md) |  | 
+**orderLines** | [**\RoyalMail\ClickAndDrop\Rest\Api\Models\GetOrderLineResult[]**](GetOrderLineResult.md) |  | 
+**tags** | [**\RoyalMail\ClickAndDrop\Rest\Api\Models\GetTagDetailsResult[]**](GetTagDetailsResult.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 

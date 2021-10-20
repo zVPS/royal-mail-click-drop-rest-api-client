@@ -1,10 +1,11 @@
 # RoyalMail\ClickAndDrop\Rest\Api\LabelsApi
 
-All URIs are relative to *///api/v1*
+https://api.parcel.royalmail.com/api/v1
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**getOrdersLabelAsync**](LabelsApi.md#getOrdersLabelAsync) | **GET** /orders/{orderIdentifiers}/label | Return a single PDF file with generated label and/or associated document(s)
+
 
 # **getOrdersLabelAsync**
 > \SplFileObject getOrdersLabelAsync($orderIdentifiers, $documentType, $includeReturnsLabel, $includeCN)
@@ -17,12 +18,13 @@ Return a single PDF file with generated label and/or associated document(s)
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
+
 // Configure API key authorization: Bearer
 $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = RoyalMail\ClickAndDrop\Rest\Api\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\LabelsApi(
+$apiInstance = new RoyalMail\ClickAndDrop\Rest\Api\Api\LabelsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -48,7 +50,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **orderIdentifiers** | **string**| Order Identifier or several Order Identifiers separated by semicolon |
  **documentType** | **string**| Document generation mode. When documentType is set to \&quot;postageLabel\&quot; the additional parameters below must be used. These additional parameters will be ignored when documentType is not set to \&quot;postageLabel\&quot; |
- **includeReturnsLabel** | **bool**| Include returns label. Required when documentType is set to &#x27;postageLabel&#x27; | [optional]
+ **includeReturnsLabel** | **bool**| Include returns label. Required when documentType is set to &#39;postageLabel&#39; | [optional]
  **includeCN** | **bool**| Include CN22/CN23 with label. Optional parameter. If this parameter is used the setting will override the default account behaviour specified in the \&quot;Label format\&quot; setting \&quot;Generate customs declarations with orders\&quot; | [optional]
 
 ### Return type
@@ -61,7 +63,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
+ - **Content-Type**: application/json
  - **Accept**: application/pdf, application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)

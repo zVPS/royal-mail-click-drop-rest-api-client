@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**shippingCost** | [**BigDecimal**](BigDecimal.md) |  | 
+**shippingCost** | **float** |  | 
 **trackingNumber** | **string** |  | [optional] 
 **shippingTrackingStatus** | **string** |  | [optional] 
 **serviceCode** | **string** |  | [optional] 
@@ -15,4 +15,5 @@ Name | Type | Description | Notes
 **isLocalCollect** | **bool** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 

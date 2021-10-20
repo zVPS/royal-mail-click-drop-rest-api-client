@@ -6,8 +6,8 @@ Name | Type | Description | Notes
 **name** | **string** |  | [optional] 
 **sKU** | **string** |  | [optional] 
 **quantity** | **int** |  | 
-**unitValue** | [**BigDecimal**](BigDecimal.md) |  | 
-**unitWeightInGrams** | [**BigDecimal**](BigDecimal.md) |  | 
+**unitValue** | **float** |  | 
+**unitWeightInGrams** | **float** |  | 
 **customsDescription** | **string** |  | [optional] 
 **extendedCustomsDescription** | **string** |  | [optional] 
 **customsCode** | **string** |  | [optional] 
@@ -16,4 +16,5 @@ Name | Type | Description | Notes
 **requiresExportLicence** | **bool** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
 
